@@ -1,0 +1,40 @@
+/* Navbar.css */
+
+.navbar {
+    background-color: #ffffff; /* Navbar background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Navbar shadow */
+    padding: 10px 0; /* Padding top and bottom */
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem; /* Navbar brand font size */
+    font-weight: bold; /* Navbar brand font weight */
+    margin-right: 20px; /* Right margin */
+  }
+  
+  .navbar-nav {
+    display: flex; /* Use flexbox for navbar items */
+    align-items: center; /* Center items vertically */
+    list-style-type: none; /* Remove list styling */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .nav-item {
+    margin-right: 15px; /* Space between navbar items */
+  }
+  
+  .nav-link {
+    color: #333333; /* Navbar link color */
+    text-decoration: none; /* Remove default underline */
+    transition: color 0.3s;
+    /* Smooth transition for link color change */
+  }
+  .nav-link:nth-child(1){
+   margin-left: 100px;
+  }
+  
+  .nav-link:hover {
+    color: #007bff; /* Change link color on hover */
+  }
+  
